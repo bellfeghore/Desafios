@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500&display=swap');
+body{
+  background-color: black ;
+  font-family: Raleway;
+}
+header{
+  height: 73px;
+  background-color: black;
+  width: 1280px;
+}
+.titulo1{
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 50px;
+
+}
+.iguana1{
+  margin-top: 800px;
+  margin-bottom:
+}
+.textoi{
+  color: white;
+  width: 475px;
+  height: 197px;
+  margin-left: 150px;
+  font-weight: 300;
+  font-size: 16px;
+  display: inline-block;
+}
+.imageni{
+
+  margin-left: 106px;
+  display: inline-block;
+}
+.caracteristicas{
+  background-color: #1e1a13;
+  width: 1280px;
+  height: 348px;
+}
+.titulo2{
+  margin-left: 463px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 40px;
+}
+.tercer{
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  padding-left: 25%;
+}
+.pacificas{
+  color: #ffffff;font-weight: 300;
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  padding-left: 13%
+}
+.color{
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  padding-left: 13%
+}
+#img4{
+  margin-left: 150px;
+}
+#img5{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+#img6{
+  margin-right: 150px;
+}
+footer{
+  background-color: #1e1a13;
+  color: #ffffff;
+  text-align: left;
+  font-weight: 300;
+  font-size: 20px;
+  width: 1280px;
+  height: 102px;
+}
+#pie{padding-top: 39px;
+  text-align: center;
+}

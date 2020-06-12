@@ -1,0 +1,3 @@
+formatoArchivos=xls;
+rutaArticulos=articulos.xls;
+rutaUsuarios=usuarios.xls;

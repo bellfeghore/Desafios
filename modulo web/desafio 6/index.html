@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculadora con JavaScript - {desafio} latam_</title>
+		<link type="text/css" href="estilos.css" rel="stylesheet">
+	</head>
+	<body>
+
+	<table class="calculadora">
+		<tr>
+			<td colspan="4"><textarea disabled id="resultado" name="screen" rows="8" cols="80"></textarea></span></td>
+		</tr>
+		<tr>
+			<td><input id="siete" type="button" name="number" value="7" onclick="agregarValor(document.getElementById('siete').value)"></td>
+			<td><input id="ocho" type="button" name="number" value="8" onclick="agregarValor(document.getElementById('ocho').value)"></td>
+			<td><input id="nueve" type="button" name="number" value="9" onclick="agregarValor(document.getElementById('nueve').value)"></td>
+			<td><input id="division" type="button" name="number" value="/" onclick="agregarValor(document.getElementById('division').value)"></td>
+		</tr>
+
+		<tr>
+			<td><input id="cuatro" type="button" name="number" value="4" onclick="agregarValor(document.getElementById('cuatro').value)"></td>
+			<td><input id="cinco" type="button" name="number" value="5" onclick="agregarValor(document.getElementById('cinco').value)"></td>
+			<td><input id="seis" type="button" name="number" value="6" onclick="agregarValor(document.getElementById('seis').value)"></td>
+			<td><input id="multiplicacion" type="button" name="operator" value="*" onclick="agregarValor(document.getElementById('multiplicacion').value)"></td>
+		</tr>
+
+		<tr>
+			<td><input id="uno" type="button" name="number" value="1" onclick="agregarValor(document.getElementById('uno').value)"></td>
+			<td><input id="dos" type="button" name="number" value="2" onclick="agregarValor(document.getElementById('dos').value)"></td>
+			<td><input id="tres" type="button" name="number" value="3" onclick="agregarValor(document.getElementById('tres').value)"></td>
+			<td><input id="resta" type="button" name="operator" value="-" onclick="agregarValor(document.getElementById('resta').value)"></td>
+		</tr>
+
+		<tr>
+			<td><input id="igual" type="button" name="operator" value="=" onclick="calcular()"></td>
+			<td><input id="reset" type="button" name="operator" value="C" onclick="limpiarPantalla()"></td>
+			<td><input id="cero" type="button" name="number" value="0" onclick="agregarValor(document.getElementById('cero').value)"></td>
+			<td><input id="suma" type="button" name="operator" value="+" onclick="agregarValor(document.getElementById('suma').value)"></td>
+		</tr>
+
+
+
+	</table>
+
+	<script type="text/JavaScript" src="calculadora.js"></script>
+	</body>
+</html>

@@ -1,0 +1,83 @@
+#link{
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.navbar-brand{
+  margin-left: 5%;
+}
+.navbar-nav{
+  margin-right: 5%
+}
+#titulo{
+  color: #707070;
+  font-family: 'Open Sans';
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.card{
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+.card-img-top{
+  height: 132px;
+}
+.card-title{
+  color: #373A3C;
+  font-size: 17px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+.card-text{
+  color: #373A3C;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  height: 50px;
+  width: 208px;
+  text-overflow: clip;
+  overflow: hidden;
+}
+.card-body{
+  border: 1px #DDDDDD solid;
+  padding: 3%;
+}
+.card-link{
+  font-size: 16px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  height: 50px;
+  width: 208px;
+}
+#secundario{
+  height:   38px;
+}
+#logo-footer{
+  height: 184px;
+  background-color: #E83E8C;
+}
+.text-uppercase{
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 58px;
+  height: 55px;
+}
+#footer-pay{
+  height: 170px;
+  background-color: #17A2B8;
+}
+#payico{
+  padding-top: 58px;
+}
+.separador{
+  padding: 64px;
+}
+.separador2{
+  padding: 118px;
+}
