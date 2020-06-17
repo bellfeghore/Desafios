@@ -106,7 +106,7 @@ function quinto(){
     }
   }
   consonantes = x.length - vocales - espacios;
-  alert(vocales + ", " + consonantes);
+  doument.write(`<p>Tu nombre tiene ${vocales} vocales y ${consonantes}.</p>`);
 }
 
 
