@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="formulario" id="formulario">
+      <p>
+        Ingrese su RUT sin puntos y con guion:
+        <input type="text" id="rut" name="rut" placeholder="11111111-1">
+      </p>
+      <p>
+        Ingrese sus nombres:
+        <input type="text" id="nombres" name="nombres" placeholder="nombre nombre">
+      </p>
+      <p>
+        Ingrese sus apellidos:
+        <input type="text" id="apellidos" name="apellidos" placeholder="apellido apellido">
+      </p>
+      <p>
+        Ingrese su edad:
+        <input type="text" id="edad" name="edad" placeholder="11">
+      </p>
+      <p>
+        Ingrese su correo electronico:
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@ejemplo.algo">
+      </p>
+      <p>
+        Seleccione la especialidad:
+        <select name="especialidad" id="especialidad">
+          <option value="Enfermedades respiratorias">Enfermedades respiratorias</option>
+          <option value="Cirugía">Cirugía</option>
+          <option value="Cardiología">Cardiología</option>
+          <option value="Pediatría">Pediatría</option>
+          <option value="Dermatología">Dermatología</option>
+          <option value="Gastroenterología">Gastroenterología</option>
+        </select>
+      </p>
+      <p>
+        Ingrese la fecha:
+        <input type="date" name="fecha" id="fecha" value="">
+      </p>
+      <p>Ingrese la hora: 
+        <select name="hora" id="hora">
+          <option value="12">12:00</option>
+          <option value="13">13:00</option>
+          <option value="14">14:00</option>
+          <option value="15">15:00</option>
+          <option value="16">16:00</option>
+          <option value="17">17:00</option>
+          <option value="18">18:00</option>
+          <option value="19">19:00</option>
+          <option value="20">20:00</option>
+          <option value="21">21:00</option>
+          <option value="22">22:00</option>
+          <option value="23">23:00</option>
+        </select>
+      </p>
+      <p><button type="submit" onclick="revision()">Reservar</button></p>
+    </div>
+    <div id="reservaExitosa" style="width: 50%;border: 2px solid black; margin: auto; padding: 5%; background-color: burlywood;" hidden></div>
+    <script src="script.js"></script>
+  </body>
+</html>
