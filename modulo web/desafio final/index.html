@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="style2.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>POKEDEX</title>
+    </head>
+
+    <body>
+        <div id="pokedex">
+            <img class="pantalla" src="">
+            <div id="pantalla">
+                <img id="imagenEntrada" src="pokemon.png" alt="">
+                <div class="contenido" id="imagen"></div>
+                <div class="contenido" id="datos">
+                    <table id="listaTipos">
+
+                    </table>
+                </div>
+                <div class="contenido" id="grafico"><canvas id="graficoEstadisticas"></canvas></div>
+            </div>
+            <div id="cuerpo">
+                <button class="inicio" id="tipos">TIPOS</button>
+                <button class="inicio" id="numero">NUMERO</button>
+                <button class="inicio" id="nombre">NOMBRE</button>
+            </div>
+            <div id="pantalla2"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
